@@ -1,4 +1,4 @@
-### 
+### Linear Regression in Python
 
 Just learned a pretty nice knowledge about linear regression. Let me know if you have any question.
 
@@ -7,38 +7,65 @@ Just learned a pretty nice knowledge about linear regression. Let me know if you
 
 
 
-### Linear Regression
+
+
+
+### Linear Regression in Python
+
+#### libraries for python
 ```python
 import pandas as pd
 import urllib.request
 from urllib.request import urlopen
 from urllib.request import Request
+```
 
+####Reading a csv file from internet
+```python
 url = "http://www.cs.odu.edu/~hdo/data/sampledata.txt"
-
 source = urllib.request.urlopen(url)
 data = pd.read_csv(source,sep=',', parse_dates=True, header=None)
+```
 
+####As the source file does not have header we might need a new header row
+```python
 df = pd.DataFrame(data)
 df.columns = ['Student','Hours','Grade']
+```
+####And add datatype for that columns
+```python
 df['Student'] = df ['Student'].astype('object')
 df['Hours'] = df ['Hours'].astype('float64')
 df['Grade'] = df ['Grade'].str.rstrip('%').astype('float64') / 100
+```
 
+####
+```python
 #set x and y for lrm
 xi = df.Hours
 y =df.Grade
+```
+
+```python
+Some other librarie in python
 from numpy import arange,array,ones
 from pylab import plot,show
 from scipy import stats
+```
+####Now we can calculate slope (beta), intercept (anpha)
+```python
 slope, intercept,r_value,p_value,std_err = stats.linregress(xi,y)
+```
+```python
 print('r value', r_value)
 print('p_value', p_value)
 print('standard deviation', std_err)
+```
+#The rest is pretty easy
+```python
 line = slope*xi+intercept
 plot(xi,line,'r-',xi,y,'o')
 show()
-
 ```
 
 ###Sample data for Linear Regression Model
