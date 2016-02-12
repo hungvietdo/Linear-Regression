@@ -1,3 +1,12 @@
+### 
+
+Just learned a pretty nice knowledge about linear regression. Let me know if you have any question.
+
+### The formula is something like this
+![linearregression](images/linear.png)
+
+
+
 ### Linear Regression
 ```python
 import pandas as pd
