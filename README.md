@@ -66,7 +66,8 @@ plot(xi,line,'r-',xi,y,'o')
 show()
 ```
 
-####Feel free to fork and enjoy the code!
+####DONE. Feel free to fork and enjoy the code! Hung
+
 
 ####Sample data for Linear Regression Model
 
