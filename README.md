@@ -8,11 +8,9 @@ Just learned a pretty nice knowledge about linear regression. Let me know if you
 
 
 
+#### Linear Regression in Python
 
-
-### Linear Regression in Python
-
-#### libraries for python
+#### Libraries in python:
 ```python
 import pandas as pd
 import urllib.request
@@ -46,7 +44,7 @@ xi = df.Hours
 y =df.Grade
 ```
 
-####Some other librarie in python
+####Some other libraries in python
 ```python
 from numpy import arange,array,ones
 from pylab import plot,show
@@ -61,14 +59,16 @@ print('r value', r_value)
 print('p_value', p_value)
 print('standard deviation', std_err)
 ```
-#The rest is pretty easy
+####The rest is pretty easy
 ```python
 line = slope*xi+intercept
 plot(xi,line,'r-',xi,y,'o')
 show()
 ```
 
-###Sample data for Linear Regression Model
+####Feel free to fork and enjoy the code!
+
+####Sample data for Linear Regression Model
 
 | Student        | Hours           | Grade  |
 | ------------- |:-------------:| -----:|
