@@ -46,8 +46,8 @@ xi = df.Hours
 y =df.Grade
 ```
 
+####Some other librarie in python
 ```python
-Some other librarie in python
 from numpy import arange,array,ones
 from pylab import plot,show
 from scipy import stats
