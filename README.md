@@ -1,4 +1,4 @@
-# Linear Regression
+### Linear Regression
 ```python
 import pandas as pd
 import urllib.request
@@ -32,7 +32,9 @@ show()
 
 ```
 
-| Tables        | Are           | Cool  |
+###Sample data for Linear Regression Model
+
+| Student        | Hours           | Grade  |
 | ------------- |:-------------:| -----:|
 |	Jack|6|53%	|
 |	Anne|7|60%	|
