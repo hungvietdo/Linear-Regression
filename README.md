@@ -3,7 +3,7 @@
 Just learned a pretty nice knowledge about linear regression. Let me know if you have any question.
 
 ### The formula is something like this
-![linearregression](images/linear.png)
+![linearregression](images\linear.png)
 
 
 
