@@ -34,7 +34,25 @@ show()
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|	Jack|6|53%	|
+|	Anne|7|60%	|
+|	Harry|6.5|56%	|
+|	Sharon|8|79%	|
+|	John|6.6|58%	|
+|	James|8.1|85%	|
+|	Jill|6.8|70%	|
+|	Adam|6.9|56%	|
+|	Brandon|7.3|69%	|
+|	Brett|6.9|76%	|
+|	Brady|8.2|79%	|
+|	Charles|7.2|68%	|
+|	Darren|7.3|74%	|
+|	Dave|5.9|72%	|
+|	Dawn|8.6|84%	|
+|	Denise|7.4|78%	|
+|	Eric|7.6|76%	|
+|	Emily|6.8|65%	|
+|	Fred|8|92%	|
+|	Fran|7.4|80%	|
+|	Jane|6.5|65%	|
 
